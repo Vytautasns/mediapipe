@@ -1,0 +1,21 @@
+{
+    "compilerOptions": {
+        "outDir": "./dist/",
+        "moduleResolution": "node",
+        "module": "ESNext",
+        "target": "ES2020",
+        "resolveJsonModule": true,
+        "allowSyntheticDefaultImports": true,
+        "esModuleInterop": true,
+        "allowJs": true,
+        "noImplicitAny": false,
+        "strictPropertyInitialization": false,
+        "suppressImplicitAnyIndexErrors": true,
+        "stripInternal": true,
+        "importHelpers": true,
+        "sourceMap": true,
+        "baseUrl": "./"
+    },
+    "include": ["src/"],
+    "exclude": ["node_modules", "**/*.test.*"]
+}
